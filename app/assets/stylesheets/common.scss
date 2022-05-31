@@ -1,0 +1,65 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+header, footer {
+  width: 100%;
+  padding: 10px;
+  background: rgb(195, 13, 0);
+  color: white;
+  margin: 0px;
+}
+
+.notice {
+  padding: 15px;
+  width: 400px;
+  text-align: center;
+  background-color: rgb(62, 255, 62);
+}
+
+.errors {
+  padding: 15px;
+  width: 400px;
+  text-align: center;
+  background-color: rgb(255, 113, 113);
+  list-style: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+}
+
+.main_container {
+  margin: 50px 15px;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+thead {
+  background-color: rgb(255, 210, 221);
+}
+
+tbody {
+  background-color: rgb(255, 236, 236);
+}
+
+table th, table td {
+  border: solid 1px black;
+  padding: 10px 20px;
+}
+table input {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+}
